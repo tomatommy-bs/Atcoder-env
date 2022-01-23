@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  env:
+    build: .
+    image: my-atcoder-env-image
+    container_name: my-atcoder-env
