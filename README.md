@@ -52,28 +52,9 @@ acc config default-task-choice <next|inquiry|all>
 
 ### template
 
-- change to config dir 
+- copy template dir
 ```
-cd `acc config-dir`
-```
-- create template dir, and cd
-```
-mkdir py
-cd py
-```
-- create template.json and template file
-```
-touch template.json
-touch submit.py
-```
-- and write template.json ... ex)
-```
-{
-  "task":{
-    "program": ["submit.py"],
-    "submit": "submit.py"
-  }
-}
+cp -r templates/py/ `acc config-dir`
 ```
 - check abobe process is done successfully
 ```
