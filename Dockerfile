@@ -2,7 +2,7 @@ FROM beevelop/nodejs-python:latest
 
 ENV LANG="C.UTF-8"
 ENV APP_ROOT="/usr/src/app"
-ENV WORKDIR = "/workdir"
+ENV WORKDIR = "/workspace"
 ENV HOST 0.0.0.0
 
 WORKDIR $WORKDIR
