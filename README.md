@@ -1,4 +1,8 @@
+# 🧑‍💻 MUST PREPARE
+
 ## check installed 
+
+check if AtCoderCli and online-judge-tools are installed
 
 ```
 acc -v
@@ -7,24 +11,40 @@ oj --version
 
 ## login to AtCoder
 
+login to AtCoder and online-judge-tools with CLI
+
 ```
 acc login
 oj login https://atcoder.jp
 ```
 
-### check login
+### (check login)
 
 ```
 acc session
 ```
 
+# 🚀 HOW TO USE
+
 ## download testcases
+
+download testcases of one contenst from AtCoder.
+
+format
 
 ```
 acc new < contest name >
 ```
 
+example
+
+```
+acc new abc200
+```
+
 ## test
+
+test your code with downloaded testcases by your original code.
 
 ```
 oj test -c "python3 ./submit.py" -d ./tests
